@@ -8,6 +8,7 @@ This project demonstrates a binary counter implemented using an 8-bit sequence t
 #Language: The project is written in the C programming language.
 
 #Functionality:
+
 The program controls the LEDs to show the current binary number. Each LED represents one bit of the 8-bit binary number.
 The counter starts at 0 and increments by 1 every 0.5 seconds until it reaches 255 (binary: 11111111), then it rolls over and restarts at 0.
 Hardware: The project uses an Arduino Uno board. The LEDs are connected to digital pins 3 to 10.
