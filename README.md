@@ -4,6 +4,7 @@
 This project demonstrates a binary counter implemented using an 8-bit sequence that is displayed on LEDs connected to an Arduino Uno board. The counter counts from 0 to 255 in binary, with each number being displayed on 8 LEDs connected to digital pins 3 to 10. The counter increments every 0.5 seconds, providing a visual representation of the binary counting sequence.
 
 #Project Details
+
 #Language: The project is written in the C programming language.
 
 #Functionality:
