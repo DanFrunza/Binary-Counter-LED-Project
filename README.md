@@ -41,7 +41,7 @@ avrdude -p m328p -c arduino -P COM3 -b 115200 -U flash:w:Binar_Counter_LED.hex:i
 
 Ensure that the Arduino is properly connected to the correct COM port and that avrdude is installed on your system.
 
-Requirements
+#Requirements
 
 Arduino Uno board
 
