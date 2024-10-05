@@ -30,10 +30,15 @@ To upload the compiled .hex file to the Arduino Uno, use the following avrdude c
 avrdude -p m328p -c arduino -P COM3 -b 115200 -U flash:w:Binar_Counter_LED.hex:i
 
 -p m328p: Specifies the microcontroller (ATmega328P for Arduino Uno).
+
 -c arduino: Uses the Arduino bootloader protocol.
+
 -P COM3: Specifies the port where the Arduino is connected (adjust COM3 if needed).
+
 -b 115200: Baud rate for communication.
+
 -U flash:w:Binar_Counter_LED.hex:i: Instructs avrdude to write the hex file to the flash memory of the microcontroller.
+
 Ensure that the Arduino is properly connected to the correct COM port and that avrdude is installed on your system.
 
 Requirements
