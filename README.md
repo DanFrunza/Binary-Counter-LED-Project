@@ -13,11 +13,13 @@ The counter starts at 0 and increments by 1 every 0.5 seconds until it reaches 2
 Hardware: The project uses an Arduino Uno board. The LEDs are connected to digital pins 3 to 10.
 
 #How It Works
+
 The program initializes the pins 3 to 10 as outputs.
 A loop counts from 0 to 255 and writes each value to the output pins, lighting up the LEDs in the corresponding binary pattern.
 After displaying each number, the program waits for 0.5 seconds before incrementing the counter.
 
 #Compilation and Upload
+
 The source code is written in C and needs to be compiled using avr-gcc or an IDE that supports AVR programming (like Atmel Studio or PlatformIO).
 
 After compilation, the compiled hex file (Binar_Counter_LED.hex) is uploaded to the Arduino Uno board using the avrdude tool.
